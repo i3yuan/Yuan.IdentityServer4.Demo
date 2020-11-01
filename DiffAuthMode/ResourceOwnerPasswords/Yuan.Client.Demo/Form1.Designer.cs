@@ -36,6 +36,8 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.txtUserName = new System.Windows.Forms.TextBox();
             this.tokenList = new System.Windows.Forms.TextBox();
@@ -48,8 +50,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -149,7 +149,27 @@
             this.groupBox1.Size = new System.Drawing.Size(907, 314);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "ClientCredentials";
+            this.groupBox1.Text = "ResourceOwnerPassword";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label6.Location = new System.Drawing.Point(39, 264);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(45, 12);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "密码 :";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label5.Location = new System.Drawing.Point(26, 219);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(58, 12);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "用户名 :";
             // 
             // txtPassword
             // 
@@ -265,26 +285,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "认证服务器 :";
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label5.Location = new System.Drawing.Point(26, 219);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(58, 12);
-            this.label5.TabIndex = 13;
-            this.label5.Text = "用户名 :";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label6.Location = new System.Drawing.Point(39, 264);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(45, 12);
-            this.label6.TabIndex = 14;
-            this.label6.Text = "密码 :";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -293,7 +293,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
-            this.Text = "客户端授权模式";
+            this.Text = "资源所有者密码凭证模式";
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
