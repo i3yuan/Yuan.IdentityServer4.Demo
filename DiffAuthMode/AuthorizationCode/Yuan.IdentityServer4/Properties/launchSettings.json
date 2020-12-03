@@ -1,0 +1,12 @@
+﻿{
+  "profiles": {
+    "Yuan.IdentityServer4": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:5001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
