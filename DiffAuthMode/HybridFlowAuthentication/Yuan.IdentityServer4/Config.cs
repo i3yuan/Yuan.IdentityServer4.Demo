@@ -65,7 +65,7 @@ namespace Yuan.IdentityServer4
                          "hybrid_scope1"
                      },
                       //允许将token通过浏览器传递
-                    // AllowAccessTokensViaBrowser=true,
+                     AllowAccessTokensViaBrowser=true,
                     // AllowOfflineAccess=true,
                      // 是否需要同意授权 （默认是false）
                       RequireConsent=true
